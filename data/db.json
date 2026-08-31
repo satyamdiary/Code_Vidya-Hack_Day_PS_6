@@ -1,0 +1,64 @@
+[
+  {
+    "id": "INC-1001",
+    "title": "Broken lock on North Dorm main entrance",
+    "description": "The keycard reader and door lock at the front entrance of North Dormitory are not latching. Anyone can push the door open without scanning their student ID card. This is a major safety concern at night.",
+    "location": "North Residence Hall",
+    "contact": "sarah.jones@campus.edu",
+    "category": "Safety & Security",
+    "priority": "Urgent",
+    "routing": "Campus Police / Safety",
+    "status": "REPORTED",
+    "parentIncidentId": null,
+    "timestamp": "2026-08-30T13:12:29.421Z",
+    "resolutionNotes": null,
+    "aiVerificationResult": null
+  },
+  {
+    "id": "INC-1002",
+    "title": "Water leaking from ceiling in Library Room 304",
+    "description": "There is water dripping steadily from a ceiling tile in the corner of Room 304 in the main library. It is staining the carpet and might damage the books nearby if it gets worse.",
+    "location": "Main Library",
+    "category": "Facilities",
+    "priority": "High",
+    "routing": "Facilities Management",
+    "status": "INVESTIGATING",
+    "parentIncidentId": null,
+    "timestamp": "2026-08-31T01:12:29.421Z",
+    "resolutionNotes": null,
+    "aiVerificationResult": null
+  },
+  {
+    "id": "INC-1003",
+    "title": "Wi-Fi connectivity dropouts in Student Union dining area",
+    "description": "Students are unable to connect to the campus Wi-Fi network in the main dining hall. It keeps authenticating and then dropping connection immediately. Extremely slow when connected.",
+    "location": "Student Union",
+    "category": "IT & Tech",
+    "priority": "Medium",
+    "routing": "IT Help Desk",
+    "status": "VERIFIED",
+    "parentIncidentId": null,
+    "timestamp": "2026-08-29T13:12:29.421Z",
+    "resolutionNotes": "Rebooted the secondary wireless access point AP-Dining-02 located on the central pillar. Monitored load for 2 hours, connection stability returned to normal.",
+    "aiVerificationResult": {
+      "verified": true,
+      "confidence": 0.98,
+      "reason": "The resolution notes explicitly state rebooting the specific access point in the dining area and verifying returned network stability, which directly addresses the Wi-Fi dropouts reported."
+    }
+  },
+  {
+    "id": "INC-1004",
+    "title": "water leakage in block A",
+    "description": "There is continuous water leakage near the ground-floor washroom in Block A. The floor is becoming slippery and students may fall.",
+    "location": "shivaji boys hostel",
+    "contact": "Anonymous Student",
+    "category": "Facilities",
+    "priority": "Low",
+    "routing": "Facilities Management",
+    "status": "REPORTED",
+    "parentIncidentId": null,
+    "timestamp": "2026-08-31T13:12:29.428Z",
+    "resolutionNotes": null,
+    "aiVerificationResult": null
+  }
+]
